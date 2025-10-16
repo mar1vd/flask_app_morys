@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.env.*
+.venv
+venv/
+ENV/
+env/
+Pipfile
+Pipfile.lock
+
+# --- Flask / Instance / Logs ---
+instance/
+*.log
+*.sqlite3
+*.db
+*.bak
+
+# --- Byte-compiled / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Testing / Coverage ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints
+
+# --- Misc ---
+*.tmp
+*.log
+*.bak
+*.old
